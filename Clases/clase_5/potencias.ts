@@ -9,4 +9,4 @@ function calcularPotencia(base: number, exponente: number): number
          {return resultado}
          
 {let potencia: number = calcularPotencia(base, exponente);
-         console.log(base + " a la " + exponente + " es =  " + potencia);}
+         console.log("El resultado es:  " + potencia);}
