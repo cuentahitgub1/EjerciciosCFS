@@ -3,4 +3,12 @@ function imprimirNombre(nombre:string, apellido:string): string{
         return nombreCompleto;
 }
 
-console.log (imprimirNombre("Maico","Olguin"))
+function dibujarGuiones() {
+        let i : number; let simbolo: string = "";
+        for (i = 0; i <= 12; i++) 
+            { simbolo = simbolo + "-";};	
+            console.log(simbolo);}
+
+        dibujarGuiones();
+        console.log (imprimirNombre("Maico","Olguin"))
+        dibujarGuiones();
